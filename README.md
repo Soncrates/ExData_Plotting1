@@ -1,3 +1,12 @@
+## Student Addendum
+
+I have added Plot[1-4].R and plot[1-5].png and modified_household_power_consumption.txt into the main directory.
+The instructions were not explicit as to where they should go.
+
+The first 28 lines of each script are reading the data from file.  It is should be the same across all R scripts. The main function is the only thing that changes from script to script and starts on line 29.  These functions in the first 28 lines read modified_household_power_consumption.txt into a data table if it exists.  If it does not exist the script reads in household_power_consumption.txt, truncates the data table to only the days of interested and writes modified_household_power_consumption.txt using the truncated data table.  I was unable to commit household_power_consumption.txt due to size constraints of git.
+
+For plot 4 I used temporary variables p[1-4].  This has no logical use, it made names and columns easier if I reduced the data to only what was needed for each graph.
+
 ## Introduction
 
 This assignment uses data from
